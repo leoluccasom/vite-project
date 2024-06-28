@@ -1,0 +1,50 @@
+.container .title {
+    font-size: 25px;
+    padding: 30px 25px;
+}
+
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.movie-container div{
+    width: 30%;
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #292929;
+}
+.movie-container div h2, p, a{
+    padding: 0px 15px;
+}
+.movie-container div h2{
+    padding-top: 10px;
+}
+.movie-container div a{
+    background-color: #00c4c4;
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+    color: #292929;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movie-container div a:hover{
+    border: 1px solid #00c4c4;
+    background-color: #292929;
+    color: #00c4c4;
+}
+
+@media (max-width:614px){
+    .movie-container div{
+        margin: 2.5rem auto;
+        width: 90%;
+    }
+}
