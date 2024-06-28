@@ -8,10 +8,9 @@ const Navbar = () => {
         <h2>
           <a href="#"><BiCameraMovie />MyFilms</a>
         </h2>
-        <form>
-            <input type="text" placeholder='Pesquisar filmes...' />
-        </form>
+        <p className='paragrafo'>Aqui você encontra os filmes e séries mais populares do Tmdb. </p>
       </nav>
+      
   )
 }
 
